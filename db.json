@@ -68,5 +68,37 @@
       "disciplinaId": 1,
       "ano": 2017
     }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "ana",
+      "senha": 123
+    }
+  ],
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "ana"
+    },
+    {
+      "codigo": null,
+      "nome": "Clara",
+      "id": 2
+    }
+  ],
+  "funcionarios": [
+    {
+      "id": 1,
+      "pessoaId": 1,
+      "cargoId":1,
+      "tipo": "Administrativo"
+    }
+  ],
+  "cargos": [
+    {
+      "id": 1,
+      "nome": "professor"
+    }
   ]
 }
